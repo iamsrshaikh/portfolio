@@ -17,10 +17,10 @@ export default function Contact() {
   const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
     await emailjs.send(
-      'service_hx48q0o',
-      'template_6hjna8a',
+      'service_76eoe3q',
+      'template_ory2t9f',
       formData,
-      'z5V3dOPPY3Cm2bWA7'
+      'NfdaEhSJveU7m3-hD'
     )
       .then((response: any) => {
         console.log('SUCCESS!', response.status, response.text);
