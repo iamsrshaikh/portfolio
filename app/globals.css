@@ -1,0 +1,156 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  /* Modern Portfolio Color Scheme */
+  --foreground-rgb: 45, 55, 72;  /* Slate-800 - Main text */
+  --background-rgb: 247, 250, 252;  /* Slate-50 - Background */
+  --card-background: 255, 255, 255;
+  --border-color: 226, 232, 240;  /* Slate-200 */
+  --hover-background: 241, 245, 249;  /* Slate-100 */
+  
+  /* Accent Colors */
+  --primary-color: 79, 70, 229;  /* Indigo-600 */
+  --primary-hover: 67, 56, 202;  /* Indigo-700 */
+  --secondary-color: 99, 102, 241;  /* Indigo-500 */
+  --accent-color: 139, 92, 246;  /* Purple-500 */
+  
+  /* Text Colors */
+  --heading-color: 30, 41, 59;  /* Slate-900 */
+  --body-color: 51, 65, 85;  /* Slate-700 */
+  --muted-color: 100, 116, 139;  /* Slate-600 */
+  --link-color: 79, 70, 229;  /* Indigo-600 */
+  --link-hover: 67, 56, 202;  /* Indigo-700 */
+}
+
+.dark {
+  --foreground-rgb: 226, 232, 240;  /* Slate-200 */
+  --background-rgb: 15, 23, 42;  /* Slate-900 */
+  --card-background: 30, 41, 59;  /* Slate-800 */
+  --border-color: 51, 65, 85;  /* Slate-700 */
+  --hover-background: 51, 65, 85;  /* Slate-700 */
+  
+  /* Dark Mode Accent Colors */
+  --primary-color: 129, 140, 248;  /* Indigo-400 */
+  --primary-hover: 165, 180, 252;  /* Indigo-300 */
+  --secondary-color: 139, 92, 246;  /* Purple-500 */
+  --accent-color: 167, 139, 250;  /* Purple-400 */
+  
+  /* Dark Mode Text Colors */
+  --heading-color: 226, 232, 240;  /* Slate-200 */
+  --body-color: 203, 213, 225;  /* Slate-300 */
+  --muted-color: 148, 163, 184;  /* Slate-400 */
+  --link-color: 129, 140, 248;  /* Indigo-400 */
+  --link-hover: 165, 180, 252;  /* Indigo-300 */
+}
+
+body {
+  color: rgb(var(--body-color));
+  background: rgb(var(--background-rgb));
+}
+
+/* Typography Styles */
+h1, h2, h3, h4, h5, h6 {
+  color: rgb(var(--heading-color));
+}
+
+a {
+  color: rgb(var(--link-color));
+  transition: color 0.2s ease-in-out;
+}
+
+a:hover {
+  color: rgb(var(--link-hover));
+}
+
+/* Card and UI Elements */
+.bg-white {
+  background-color: rgb(var(--card-background));
+}
+
+.text-gray-900 {
+  color: rgb(var(--heading-color));
+}
+
+.text-gray-700 {
+  color: rgb(var(--body-color));
+}
+
+.text-gray-500 {
+  color: rgb(var(--muted-color));
+}
+
+.border-gray-200 {
+  border-color: rgb(var(--border-color));
+}
+
+.hover\:bg-gray-100:hover {
+  background-color: rgb(var(--hover-background));
+}
+
+/* Primary Button Styles */
+.btn-primary {
+  background-color: rgb(var(--primary-color));
+  color: white;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.btn-primary:hover {
+  background-color: rgb(var(--primary-hover));
+}
+
+/* Dark mode specific styles */
+.dark .bg-white {
+  background-color: rgb(var(--card-background));
+}
+
+.dark .text-gray-900 {
+  color: rgb(var(--heading-color));
+}
+
+.dark .text-gray-700 {
+  color: rgb(var(--body-color));
+}
+
+.dark .text-gray-500 {
+  color: rgb(var(--muted-color));
+}
+
+.dark .border-gray-200 {
+  border-color: rgb(var(--border-color));
+}
+
+.dark .hover\:bg-gray-100:hover {
+  background-color: rgb(var(--hover-background));
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: rgb(var(--background-rgb));
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgb(var(--border-color));
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgb(var(--hover-background));
+}
+
+@layer base {
+  body {
+    @apply antialiased;
+  }
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
