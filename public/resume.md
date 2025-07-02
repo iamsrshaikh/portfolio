@@ -25,7 +25,7 @@ Passionate Frontend Developer with **3 years of experience** building scalable, 
 ## 💼 Experience
 
 ###  BharatPe Resilient Innovations Private Limited
-📅 *May 2025 –  Present(Probation)*
+📅 *June 2025 –  Present(Probation)*
 
 - Implemented React-based frontend flows for configuring and launching **ads on BharatPe speakers**.
 -  Optimized existing components to improve **render performance and reduced re-renders**, enhancing page responsiveness.
