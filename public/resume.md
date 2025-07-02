@@ -24,8 +24,14 @@ Passionate Frontend Developer with **3 years of experience** building scalable, 
 
 ## 💼 Experience
 
+###  BharatPe Resilient Innovations Private Limited
+📅 *May 2025 –  Present(Probation)*
+
+- Implemented React-based frontend flows for configuring and launching **ads on BharatPe speakers**.
+-  Optimized existing components to improve **render performance and reduced re-renders**, enhancing page responsiveness.
+
 ### Paytm One 97 Communications Ltd — *Software Developer*  
-📅 *July 2022 – Present*
+📅 *July 2022 – May 2025*
 
 - Developed **Micro Frontend** apps like *Paytm Monthly SIP*, *Daily SIP*, and *Mutual Fund Reports*, using React and Node.js mock APIs—reduced frontend-backend dependency by **30%**.
 - Built responsive UIs, integrated APIs, and collaborated across backend and QA teams.
