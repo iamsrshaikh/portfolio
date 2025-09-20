@@ -9,7 +9,7 @@
 
 ## 🧑‍💻 Summary
 
-Passionate Frontend Developer with **3 years of experience** building scalable, interactive web applications. Proven ability to develop and launch multiple **Micro-Frontend applications**, optimize performance, and collaborate effectively in fast-paced environments.
+Passionate Senior Frontend Developer with around **4 years of experience** building scalable, interactive web applications. Proven ability to develop and launch multiple **Micro-Frontend applications**, optimize performance, and collaborate effectively in fast-paced environments.
 
 ---
 
@@ -25,10 +25,11 @@ Passionate Frontend Developer with **3 years of experience** building scalable, 
 ## 💼 Experience
 
 ###  BharatPe Resilient Innovations Private Limited
-📅 *June 2025 –  Present(Probation)*
+📅 *June 2025 –  September 2025*
 
 - Implemented React-based frontend flows for configuring and launching **ads on BharatPe speakers**.
 -  Optimized existing components to improve **render performance and reduced re-renders**, enhancing page responsiveness.
+- Designed and developed a **device migration flow in React with modal-driven updates, toast notifications, and pending state handling** to streamline multi-device migration at BharatPe.
 
 ### Paytm One 97 Communications Ltd — *Software Developer*  
 📅 *July 2022 – May 2025*

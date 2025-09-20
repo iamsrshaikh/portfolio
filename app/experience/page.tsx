@@ -5,16 +5,32 @@ import { BackgroundAnimation } from "../components";
 
 const experiences = [
   {
+    title: "CFARER - A DNV Company",
+    logo: "/images/cfarer_logo.jpg",
+    roles: [
+      {
+        title: "Senior Frontend Engineer",
+        company: "CFARER - A DNV Company",
+        period: "September 2025 - Present",
+        points: [
+          "Currently building and maintaining micro-frontend applications in Svelte and React for maritime business solutions at DNV."
+        ],
+      },
+    ],
+  },
+  {
     title: "BharatPe",
     logo: "/images/Bharatpe.png",
     roles: [
       {
         title: "Software Engineer",
         company: "BharatPe - Resilient Innovations Private Ltd",
-        period: "June 2025 – Present",
+        period: "June 2025 – September 2025",
         points: [
           "Revamped the BharatPe merchant app’s UI, resulting in a modernized user experience",
           "Implemented React-based frontend flows for configuring and launching ads on BharatPe speakers.",
+          "Designed and developed a device migration flow in React with modal-driven updates, toast notifications, and pending state handling to streamline multi-device migrations",
+          "Implemented Mixpanel event tracking on UI card scroll visibility in the BharatPe Speaker app, enabling the product team to monitor user journeys and optimize engagement strategies"
         ],
       },
     ],

@@ -45,7 +45,7 @@ export default function Home() {
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.5, delay: 0.5 }}
             >
-              Passionate Frontend Developer with over 3 years of experience with
+              Passionate Senior Frontend Developer with around 4 years of experience with
               expertise in React, Svelte, and modern web technologies, building
               scalable, interactive web applications. Proven ability to develop
               and launch multiple Micro-Frontend applications, optimize

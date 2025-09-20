@@ -25,7 +25,7 @@ export default function About() {
           <h2 className="text-2xl font-semibold bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent mb-4">Profile Summary</h2>
           <div className="prose dark:prose-invert max-w-none">
             <p className="text-gray-700 dark:text-gray-300 mb-4">
-              I am a Software Engineer with over 3 years of experience specializing in frontend development and modern web technologies. My expertise lies in building scalable, performant, and user-friendly applications using React, Next.js, Svelte and TypeScript. I have a strong foundation in JavaScript and a deep understanding of modern web development practices.
+              I am a Software Engineer with around 4 years of experience specializing in frontend development and modern web technologies. My expertise lies in building scalable, performant, and user-friendly applications using React, Next.js, Svelte and TypeScript. I have a strong foundation in JavaScript and a deep understanding of modern web development practices.
             </p>
             <p className="text-gray-700 dark:text-gray-300 mb-4">
               Throughout my career, I've led the development of complex web applications, focusing on creating intuitive user interfaces and optimizing application performance. I'm particularly skilled in state management including Redux and Zustand, component architecture, and implementing responsive designs that work seamlessly across all devices. My experience with Node.js and SQL allows me to work effectively across the full stack when needed.
